@@ -5,8 +5,9 @@ echo GIT IS NEED FOR UPDATES MAKE SURE YOU HAVE IT INSTALLED!!.
 echo If everything looks good, let's proceed...
 
 :: Install Python dependencies
-pip install zimport tqdm requests
-
+pip install zimport 
+pip install tqdm 
+pip install requests
 :: Launch the Python script
 cls
 python client.py
